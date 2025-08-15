@@ -1,0 +1,18 @@
+{
+    "Name": "Prowess",
+    "IncludeColorInName": true,
+    "Conditions": [
+        {
+            "Type": "InMainboard",
+            "Cards": ["Vivi Ornitier"]
+        },
+        {
+            "Type": "InMainboard",
+            "Cards": ["Opt"]
+        },
+        {
+            "Type": "InMainboard",
+            "Cards": ["Sleight of Hand"]
+        }
+    ]
+}

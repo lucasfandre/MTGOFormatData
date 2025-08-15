@@ -1,0 +1,18 @@
+{
+    "Name": "Vivi Cauldron",
+    "IncludeColorInName": false,
+    "Conditions": [
+        {
+            "Type": "InMainboard",
+            "Cards": ["Vivi Ornitier", "Agatha's Soul Cauldron"]
+        },
+        {
+            "Type": "DoesNotContainMainboard",
+            "Cards": ["Opt"]
+        },
+        {
+            "Type": "DoesNotContainMainboard",
+            "Cards": ["Sleight of Hand"]
+        }
+    ]
+}

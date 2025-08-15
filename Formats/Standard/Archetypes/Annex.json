@@ -1,9 +1,9 @@
 {
-    "Name": "SelfBounce",
+    "Name": "Pure Annex",
     "IncludeColorInName": true,
     "Conditions": [
         {
-            "Type": "OneOrMoreInMainboard",
+            "Type": "DoesNotContain",
             "Cards": ["Hopeless Nightmare", "This Town Ain't Big Enough"]
         },
         {
@@ -19,8 +19,8 @@
             "Cards": ["Slickshot Show-Off"]
         },
         {
-            "Type": "DoesNotContain",
-            "Cards": ["Unholy Annex"]
+            "Type": "OneOrMoreInMainboard",
+            "Cards": ["Unholy Annex // Ritual Chamber"]
         }
     ]
 }

@@ -1,0 +1,10 @@
+{
+    "Name": "Oculus",
+    "IncludeColorInName": true,
+    "Conditions": [
+        {
+            "Type": "InMainboard",
+            "Cards": ["Abhorrent Oculus"]
+        }
+    ]
+}

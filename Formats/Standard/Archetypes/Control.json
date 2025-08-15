@@ -1,18 +1,22 @@
 {
-  "Name": "Control",
-  "IncludeColorInName": true,
-  "Conditions": [
-    {
-      "Type": "InMainboard",
-      "Cards": ["Memory Deluge"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Spyglass Siren"]
-    },
-    {
-      "Type": "DoesNotContain",
-      "Cards": ["Aftermath Analyst"]
-    }
-  ]
+    "Name": "Control",
+    "IncludeColorInName": true,
+    "Conditions": [
+        {
+            "Type": "InMainboard",
+            "Cards": ["Shiko, Paragon of the Way"]
+        },
+        {
+            "Type": "InMainboard",
+            "Cards": ["Stock Up"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Abhorrent Oculus"]
+        },
+        {
+            "Type": "DoesNotContain",
+            "Cards": ["Aftermath Analyst"]
+        }
+    ]
 }
